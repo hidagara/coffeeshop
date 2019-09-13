@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52A8232C2F2900A05820 /* AppDelegate.swift */; };
 		2E1C52AB232C2F2900A05820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52AA232C2F2900A05820 /* ViewController.swift */; };
-		2E1C52AE232C2F2900A05820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C52AC232C2F2900A05820 /* Main.storyboard */; };
 		2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52AF232C2F2900A05820 /* coffeeshop.xcdatamodeld */; };
 		2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C52B2232C2F2C00A05820 /* Assets.xcassets */; };
 		2E1C52B6232C2F2C00A05820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C52B4232C2F2C00A05820 /* LaunchScreen.storyboard */; };
 		2E1C52C1232C2F2C00A05820 /* coffeeshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52C0232C2F2C00A05820 /* coffeeshopTests.swift */; };
 		2E1C52CC232C2F2C00A05820 /* coffeeshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52CB232C2F2C00A05820 /* coffeeshopUITests.swift */; };
+		2E1C52E1232C387100A05820 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52DF232C387100A05820 /* MainViewController.swift */; };
+		2E1C52E2232C387100A05820 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C52E0232C387100A05820 /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		2E1C52A5232C2F2900A05820 /* coffeeshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1C52A8232C2F2900A05820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E1C52AA232C2F2900A05820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E1C52AD232C2F2900A05820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E1C52B0232C2F2900A05820 /* coffeeshop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coffeeshop.xcdatamodel; sourceTree = "<group>"; };
 		2E1C52B2232C2F2C00A05820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E1C52B5232C2F2C00A05820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		2E1C52C7232C2F2C00A05820 /* coffeeshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coffeeshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1C52CB232C2F2C00A05820 /* coffeeshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeshopUITests.swift; sourceTree = "<group>"; };
 		2E1C52CD232C2F2C00A05820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1C52DF232C387100A05820 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2E1C52E0232C387100A05820 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +150,7 @@
 		2E1C52DB232C368E00A05820 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				2E1C52AC232C2F2900A05820 /* Main.storyboard */,
+				2E1C52E4232C3B7500A05820 /* TabBarModule */,
 				2E1C52AA232C2F2900A05820 /* ViewController.swift */,
 				2E1C52A8232C2F2900A05820 /* AppDelegate.swift */,
 			);
@@ -158,6 +160,8 @@
 		2E1C52DC232C36A600A05820 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E1C52DF232C387100A05820 /* MainViewController.swift */,
+				2E1C52E0232C387100A05820 /* MainViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +178,13 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2E1C52E4232C3B7500A05820 /* TabBarModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBarModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1C52B6232C2F2C00A05820 /* LaunchScreen.storyboard in Resources */,
+				2E1C52E2232C387100A05820 /* MainViewController.xib in Resources */,
 				2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */,
-				2E1C52AE232C2F2900A05820 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +321,7 @@
 				2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */,
 				2E1C52AB232C2F2900A05820 /* ViewController.swift in Sources */,
 				2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */,
+				2E1C52E1232C387100A05820 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2E1C52AC232C2F2900A05820 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E1C52AD232C2F2900A05820 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E1C52B4232C2F2C00A05820 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
