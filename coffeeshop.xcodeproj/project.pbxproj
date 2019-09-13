@@ -99,9 +99,9 @@
 		2E1C52A7232C2F2900A05820 /* coffeeshop */ = {
 			isa = PBXGroup;
 			children = (
-				2E1C52A8232C2F2900A05820 /* AppDelegate.swift */,
-				2E1C52AA232C2F2900A05820 /* ViewController.swift */,
-				2E1C52AC232C2F2900A05820 /* Main.storyboard */,
+				2E1C52DB232C368E00A05820 /* App */,
+				2E1C52DA232C367A00A05820 /* MainModule */,
+				2E1C52D9232C366F00A05820 /* ServerMock */,
 				2E1C52B2232C2F2C00A05820 /* Assets.xcassets */,
 				2E1C52B4232C2F2C00A05820 /* LaunchScreen.storyboard */,
 				2E1C52B7232C2F2C00A05820 /* Info.plist */,
@@ -126,6 +126,54 @@
 				2E1C52CD232C2F2C00A05820 /* Info.plist */,
 			);
 			path = coffeeshopUITests;
+			sourceTree = "<group>";
+		};
+		2E1C52D9232C366F00A05820 /* ServerMock */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServerMock;
+			sourceTree = "<group>";
+		};
+		2E1C52DA232C367A00A05820 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C52DE232C36F000A05820 /* Model */,
+				2E1C52DD232C36E700A05820 /* Presenter */,
+				2E1C52DC232C36A600A05820 /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		2E1C52DB232C368E00A05820 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C52AC232C2F2900A05820 /* Main.storyboard */,
+				2E1C52AA232C2F2900A05820 /* ViewController.swift */,
+				2E1C52A8232C2F2900A05820 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2E1C52DC232C36A600A05820 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E1C52DD232C36E700A05820 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2E1C52DE232C36F000A05820 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
