@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         mockViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
         let tbc =  UITabBarController()
         homeViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
-        tbc.viewControllers = [mockViewController, homeViewController]
+        tbc.viewControllers = [mockViewController, homeViewController, mockViewController, homeViewController]
         window!.rootViewController = tbc
         window!.makeKeyAndVisible()
         return true
