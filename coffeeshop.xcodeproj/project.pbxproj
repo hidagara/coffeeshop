@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52A8232C2F2900A05820 /* AppDelegate.swift */; };
-		2E1C52AB232C2F2900A05820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52AA232C2F2900A05820 /* ViewController.swift */; };
+		2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52AA232C2F2900A05820 /* RootViewController.swift */; };
 		2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52AF232C2F2900A05820 /* coffeeshop.xcdatamodeld */; };
 		2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C52B2232C2F2C00A05820 /* Assets.xcassets */; };
 		2E1C52B6232C2F2C00A05820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C52B4232C2F2C00A05820 /* LaunchScreen.storyboard */; };
@@ -16,6 +16,8 @@
 		2E1C52CC232C2F2C00A05820 /* coffeeshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52CB232C2F2C00A05820 /* coffeeshopUITests.swift */; };
 		2E1C52E1232C387100A05820 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52DF232C387100A05820 /* MainViewController.swift */; };
 		2E1C52E2232C387100A05820 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1C52E0232C387100A05820 /* MainViewController.xib */; };
+		2E8FEC31234D319500FD9F50 /* StorePointResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8FEC30234D319500FD9F50 /* StorePointResponse.swift */; };
+		2E8FEC33234D31A500FD9F50 /* StorePointViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8FEC32234D31A500FD9F50 /* StorePointViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,7 @@
 /* Begin PBXFileReference section */
 		2E1C52A5232C2F2900A05820 /* coffeeshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1C52A8232C2F2900A05820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E1C52AA232C2F2900A05820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E1C52AA232C2F2900A05820 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		2E1C52B0232C2F2900A05820 /* coffeeshop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coffeeshop.xcdatamodel; sourceTree = "<group>"; };
 		2E1C52B2232C2F2C00A05820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E1C52B5232C2F2C00A05820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		2E1C52CD232C2F2C00A05820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E1C52DF232C387100A05820 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		2E1C52E0232C387100A05820 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2E8FEC30234D319500FD9F50 /* StorePointResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePointResponse.swift; sourceTree = "<group>"; };
+		2E8FEC32234D31A500FD9F50 /* StorePointViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorePointViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		2E1C52A7232C2F2900A05820 /* coffeeshop */ = {
 			isa = PBXGroup;
 			children = (
+				2E8FEC2D234CE61400FD9F50 /* DataStore */,
 				2E1C52DA232C367A00A05820 /* MainModule */,
 				2E1C52EF232CCD2000A05820 /* NotificationModule */,
 				2E1C52E7232CCC6600A05820 /* SettingsModule */,
@@ -154,7 +159,7 @@
 		2E1C52DB232C368E00A05820 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				2E1C52AA232C2F2900A05820 /* ViewController.swift */,
+				2E1C52AA232C2F2900A05820 /* RootViewController.swift */,
 				2E1C52A8232C2F2900A05820 /* AppDelegate.swift */,
 			);
 			path = App;
@@ -223,6 +228,8 @@
 		2E1C52E9232CCCA400A05820 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2E8FEC30234D319500FD9F50 /* StorePointResponse.swift */,
+				2E8FEC32234D31A500FD9F50 /* StorePointViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -305,6 +312,13 @@
 			children = (
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2E8FEC2D234CE61400FD9F50 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataStore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -438,10 +452,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8FEC31234D319500FD9F50 /* StorePointResponse.swift in Sources */,
 				2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */,
-				2E1C52AB232C2F2900A05820 /* ViewController.swift in Sources */,
+				2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */,
 				2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */,
 				2E1C52E1232C387100A05820 /* MainViewController.swift in Sources */,
+				2E8FEC33234D31A500FD9F50 /* StorePointViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -594,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -611,6 +627,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
 				INFOPLIST_FILE = coffeeshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -618,7 +635,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.guseynov.technologies.coffeeshop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -629,6 +646,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSRUWJK48Z;
 				INFOPLIST_FILE = coffeeshop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -636,7 +654,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.guseynov.technologies.coffeeshop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
