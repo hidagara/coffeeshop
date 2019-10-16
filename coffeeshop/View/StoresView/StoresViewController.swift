@@ -1,18 +1,18 @@
 //
-//  MainViewController.swift
+//  StoresViewController.swift
 //  coffeeshop
 //
-//  Created by Roman Guseynov on 13.09.2019.
+//  Created by Roman Guseynov on 15.10.2019.
 //  Copyright © 2019 Roman Guseynov. All rights reserved.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
+class StoresViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+
         // Do any additional setup after loading the view.
     }
 
