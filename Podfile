@@ -6,6 +6,10 @@ target 'coffeeshop' do
   use_frameworks!
 
   # Pods for coffeeshop
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  
+  
 
   target 'coffeeshopTests' do
     inherit! :search_paths

@@ -17,6 +17,11 @@
 		2E1C52CC232C2F2C00A05820 /* coffeeshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52CB232C2F2C00A05820 /* coffeeshopUITests.swift */; };
 		2ECD36D2235669E900272D91 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36D0235669E900272D91 /* StoresViewController.swift */; };
 		2ECD36D3235669E900272D91 /* StoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ECD36D1235669E900272D91 /* StoresViewController.xib */; };
+		2ECD36D723579D8900272D91 /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36D623579D8900272D91 /* StoreViewModel.swift */; };
+		2ECD36D923579D9600272D91 /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36D823579D9600272D91 /* StoreModel.swift */; };
+		2ECD36DB2358F46E00272D91 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36DA2358F46E00272D91 /* MenuModel.swift */; };
+		2ECD36DD2358F47800272D91 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36DC2358F47800272D91 /* UserModel.swift */; };
+		2ECD36DF2358F48D00272D91 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36DE2358F48D00272D91 /* OrderModel.swift */; };
 		5321F9729C31A38C35EDBD44 /* Pods_coffeeshop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDEE8867DDB7BF21BDB07B01 /* Pods_coffeeshop.framework */; };
 		C11131F9595FBBF438561C66 /* Pods_coffeeshopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC1C9A89ED5D0225F192BB2A /* Pods_coffeeshopTests.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +60,11 @@
 		2E1C52CD232C2F2C00A05820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ECD36D0235669E900272D91 /* StoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
 		2ECD36D1235669E900272D91 /* StoresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoresViewController.xib; sourceTree = "<group>"; };
+		2ECD36D623579D8900272D91 /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
+		2ECD36D823579D9600272D91 /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
+		2ECD36DA2358F46E00272D91 /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		2ECD36DC2358F47800272D91 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		2ECD36DE2358F48D00272D91 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		3E0B19C17AFBC913E7BD05E3 /* Pods-coffeeshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshop.release.xcconfig"; path = "Target Support Files/Pods-coffeeshop/Pods-coffeeshop.release.xcconfig"; sourceTree = "<group>"; };
 		55E8CAC3DCE5FCE31957DF02 /* Pods_coffeeshopUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeeshopUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4CAD20DB2A07973498106C /* Pods-coffeeshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshop.debug.xcconfig"; path = "Target Support Files/Pods-coffeeshop/Pods-coffeeshop.debug.xcconfig"; sourceTree = "<group>"; };
@@ -160,7 +170,7 @@
 		2ECD36CA235664DB00272D91 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2ECD36CF235669D300272D91 /* StoresView */,
+				2ECD36CF235669D300272D91 /* StoreView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +178,10 @@
 		2ECD36CB235664E300272D91 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2ECD36D823579D9600272D91 /* StoreModel.swift */,
+				2ECD36DA2358F46E00272D91 /* MenuModel.swift */,
+				2ECD36DC2358F47800272D91 /* UserModel.swift */,
+				2ECD36DE2358F48D00272D91 /* OrderModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,17 +189,18 @@
 		2ECD36CC235664E900272D91 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				2ECD36D623579D8900272D91 /* StoreViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		2ECD36CF235669D300272D91 /* StoresView */ = {
+		2ECD36CF235669D300272D91 /* StoreView */ = {
 			isa = PBXGroup;
 			children = (
 				2ECD36D0235669E900272D91 /* StoresViewController.swift */,
 				2ECD36D1235669E900272D91 /* StoresViewController.xib */,
 			);
-			path = StoresView;
+			path = StoreView;
 			sourceTree = "<group>";
 		};
 		7EDA2F4F55C568B61EFCC0EF /* Frameworks */ = {
@@ -208,7 +223,6 @@
 				F4D38068032742A95BD767BC /* Pods-coffeeshopUITests.debug.xcconfig */,
 				DD02FBA4D8766B3EC35228CB /* Pods-coffeeshopUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,6 +237,7 @@
 				2E1C52A1232C2F2800A05820 /* Sources */,
 				2E1C52A2232C2F2800A05820 /* Frameworks */,
 				2E1C52A3232C2F2800A05820 /* Resources */,
+				E50B848CE1070B6404B2E9AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -408,6 +423,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E50B848CE1070B6404B2E9AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coffeeshop/Pods-coffeeshop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coffeeshop/Pods-coffeeshop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coffeeshop/Pods-coffeeshop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -416,9 +448,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECD36D2235669E900272D91 /* StoresViewController.swift in Sources */,
+				2ECD36DF2358F48D00272D91 /* OrderModel.swift in Sources */,
 				2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */,
+				2ECD36DD2358F47800272D91 /* UserModel.swift in Sources */,
 				2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */,
+				2ECD36DB2358F46E00272D91 /* MenuModel.swift in Sources */,
+				2ECD36D723579D8900272D91 /* StoreViewModel.swift in Sources */,
 				2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */,
+				2ECD36D923579D9600272D91 /* StoreModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
