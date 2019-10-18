@@ -3,7 +3,7 @@ package sharaga.coffeeShop.model;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity
+
 @Table(name = "STORE")
 public class Store {
     @Id

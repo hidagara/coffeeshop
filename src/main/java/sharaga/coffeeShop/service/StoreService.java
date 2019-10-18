@@ -1,14 +1,9 @@
 package sharaga.coffeeShop.service;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import sharaga.coffeeShop.dao.StoreRepository;
 
 @Service
 public class StoreService implements ServiceCrud{
 
-    @Autowired
-    StoreRepository storeRepository;
 
     @Override
     public Object create(Object object) {
