@@ -18,6 +18,10 @@
 		2E4E6AA72358F9890040D9C0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA52358F9890040D9C0 /* MenuViewController.swift */; };
 		2E4E6AA82358F9890040D9C0 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */; };
 		2E4E6AAA2358F9A40040D9C0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA92358F9A40040D9C0 /* MenuView.swift */; };
+		2EC7082A235B66160040A69B /* StoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC70829235B66160040A69B /* StoresView.swift */; };
+		2EC7082D235B66830040A69B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7082B235B66830040A69B /* UserViewController.swift */; };
+		2EC7082E235B66830040A69B /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC7082C235B66830040A69B /* UserViewController.xib */; };
+		2EC70830235B66940040A69B /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7082F235B66940040A69B /* UserView.swift */; };
 		2ECD36D2235669E900272D91 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36D0235669E900272D91 /* StoresViewController.swift */; };
 		2ECD36D3235669E900272D91 /* StoresViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2ECD36D1235669E900272D91 /* StoresViewController.xib */; };
 		2ECD36D723579D8900272D91 /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36D623579D8900272D91 /* StoreViewModel.swift */; };
@@ -64,6 +68,10 @@
 		2E4E6AA52358F9890040D9C0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		2E4E6AA92358F9A40040D9C0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2EC70829235B66160040A69B /* StoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresView.swift; sourceTree = "<group>"; };
+		2EC7082B235B66830040A69B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		2EC7082C235B66830040A69B /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		2EC7082F235B66940040A69B /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		2ECD36D0235669E900272D91 /* StoresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
 		2ECD36D1235669E900272D91 /* StoresViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoresViewController.xib; sourceTree = "<group>"; };
 		2ECD36D623579D8900272D91 /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
@@ -183,9 +191,28 @@
 			path = MenuView;
 			sourceTree = "<group>";
 		};
+		2EC70827235B65C00040A69B /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				2EC7082F235B66940040A69B /* UserView.swift */,
+				2EC7082B235B66830040A69B /* UserViewController.swift */,
+				2EC7082C235B66830040A69B /* UserViewController.xib */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		2EC70828235B65D60040A69B /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
 		2ECD36CA235664DB00272D91 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2EC70828235B65D60040A69B /* OrderView */,
+				2EC70827235B65C00040A69B /* UserView */,
 				2E4E6AA42358F96C0040D9C0 /* MenuView */,
 				2ECD36CF235669D300272D91 /* StoreView */,
 			);
@@ -214,6 +241,7 @@
 		2ECD36CF235669D300272D91 /* StoreView */ = {
 			isa = PBXGroup;
 			children = (
+				2EC70829235B66160040A69B /* StoresView.swift */,
 				2ECD36D0235669E900272D91 /* StoresViewController.swift */,
 				2ECD36D1235669E900272D91 /* StoresViewController.xib */,
 			);
@@ -352,6 +380,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1C52B6232C2F2C00A05820 /* LaunchScreen.storyboard in Resources */,
+				2EC7082E235B66830040A69B /* UserViewController.xib in Resources */,
 				2ECD36D3235669E900272D91 /* StoresViewController.xib in Resources */,
 				2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */,
 				2E4E6AA82358F9890040D9C0 /* MenuViewController.xib in Resources */,
@@ -467,15 +496,18 @@
 			files = (
 				2ECD36D2235669E900272D91 /* StoresViewController.swift in Sources */,
 				2E4E6AA72358F9890040D9C0 /* MenuViewController.swift in Sources */,
+				2EC7082D235B66830040A69B /* UserViewController.swift in Sources */,
 				2ECD36DF2358F48D00272D91 /* OrderModel.swift in Sources */,
 				2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */,
 				2ECD36DD2358F47800272D91 /* UserModel.swift in Sources */,
 				2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */,
+				2EC7082A235B66160040A69B /* StoresView.swift in Sources */,
 				2ECD36DB2358F46E00272D91 /* MenuModel.swift in Sources */,
 				2E4E6AAA2358F9A40040D9C0 /* MenuView.swift in Sources */,
 				2ECD36D723579D8900272D91 /* StoreViewModel.swift in Sources */,
 				2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */,
 				2ECD36D923579D9600272D91 /* StoreModel.swift in Sources */,
+				2EC70830235B66940040A69B /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,7 +605,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -628,7 +660,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

@@ -1,14 +1,15 @@
 //
-//  MenuView.swift
+//  UserView.swift
 //  coffeeshop
 //
-//  Created by Roman Guseynov on 17.10.2019.
+//  Created by Roman Guseynov on 19.10.2019.
 //  Copyright © 2019 Roman Guseynov. All rights reserved.
 //
 
 import UIKit
 
-class MenuView: UIView {
+class UserView: UIView {
+
     /*
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -30,7 +31,10 @@ class MenuView: UIView {
     
     
     private func setupSubviews() {
-        self.backgroundColor = .yellow
+        self.backgroundColor = .blue
+        let tipLoginLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+        tipLoginLabel.text = "Войдите для ???"
+        self.addSubview(tipLoginLabel)
     }
-    
+
 }

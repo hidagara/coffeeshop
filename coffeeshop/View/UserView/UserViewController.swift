@@ -1,23 +1,24 @@
 //
-//  StoresViewController.swift
+//  UserViewController.swift
 //  coffeeshop
 //
-//  Created by Roman Guseynov on 15.10.2019.
+//  Created by Roman Guseynov on 19.10.2019.
 //  Copyright © 2019 Roman Guseynov. All rights reserved.
 //
 
 import UIKit
 
-class StoresViewController: UIViewController {
-    
-    var storesView = StoresView()
+class UserViewController: UIViewController {
 
     
+    var userView = UserView()
+    
     override func loadView() {
-        self.view = storesView
+        self.view = userView
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
 
