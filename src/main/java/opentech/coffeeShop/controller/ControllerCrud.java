@@ -1,6 +1,6 @@
-package sharaga.coffeeShop.service;
+package opentech.coffeeShop.controller;
 
-public interface ServiceCrud {
+public interface ControllerCrud {
     //create
     Object create(Object object);
     //read

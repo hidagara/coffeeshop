@@ -1,4 +1,4 @@
-package sharaga.coffeeShop.model;
+package opentech.coffeeShop.model;
 
 import javax.persistence.*;
 import java.util.List;

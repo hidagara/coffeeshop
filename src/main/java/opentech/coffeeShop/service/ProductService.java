@@ -1,6 +1,10 @@
-package sharaga.coffeeShop.controller;
+package opentech.coffeeShop.service;
+import org.springframework.stereotype.Service;
+@Service
+public class ProductService implements ServiceCrud{
 
-public class StoreControllerCrud implements ControllerCrud {
+
+
     @Override
     public Object create(Object object) {
         return null;

@@ -1,4 +1,4 @@
-package sharaga.coffeeShop.controller;
+package opentech.coffeeShop.controller;
 
 import org.springframework.web.bind.annotation.*;
 
