@@ -8,7 +8,7 @@ target 'coffeeshop' do
   # Pods for coffeeshop
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
-  
+  pod 'SwiftLint'
   
 
   target 'coffeeshopTests' do
