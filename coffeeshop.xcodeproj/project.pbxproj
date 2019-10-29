@@ -20,6 +20,8 @@
 		2E4E6AAA2358F9A40040D9C0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA92358F9A40040D9C0 /* MenuView.swift */; };
 		2EC451BF2368C46000DBAB10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC451BD2368C46000DBAB10 /* HomeViewController.swift */; };
 		2EC451C02368C46000DBAB10 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC451BE2368C46000DBAB10 /* HomeViewController.xib */; };
+		2EC451C82368C79700DBAB10 /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC451C62368C79700DBAB10 /* StoreCollectionViewCell.swift */; };
+		2EC451C92368C79700DBAB10 /* StoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC451C72368C79700DBAB10 /* StoreCollectionViewCell.xib */; };
 		2EC7082A235B66160040A69B /* StoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC70829235B66160040A69B /* StoresView.swift */; };
 		2EC7082D235B66830040A69B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7082B235B66830040A69B /* UserViewController.swift */; };
 		2EC7082E235B66830040A69B /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC7082C235B66830040A69B /* UserViewController.xib */; };
@@ -72,6 +74,8 @@
 		2E4E6AA92358F9A40040D9C0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2EC451BD2368C46000DBAB10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2EC451BE2368C46000DBAB10 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		2EC451C62368C79700DBAB10 /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		2EC451C72368C79700DBAB10 /* StoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreCollectionViewCell.xib; sourceTree = "<group>"; };
 		2EC70829235B66160040A69B /* StoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresView.swift; sourceTree = "<group>"; };
 		2EC7082B235B66830040A69B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		2EC7082C235B66830040A69B /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 		2E1C52A7232C2F2900A05820 /* coffeeshop */ = {
 			isa = PBXGroup;
 			children = (
+				2EC451C12368C74C00DBAB10 /* UI */,
 				2ECD36CC235664E900272D91 /* ViewModel */,
 				2ECD36CB235664E300272D91 /* Model */,
 				2ECD36CA235664DB00272D91 /* View */,
@@ -193,6 +198,47 @@
 				2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */,
 			);
 			path = MenuView;
+			sourceTree = "<group>";
+		};
+		2EC451C12368C74C00DBAB10 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2EC451C22368C75700DBAB10 /* Shared */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2EC451C22368C75700DBAB10 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2EC451C32368C76900DBAB10 /* Cells */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		2EC451C32368C76900DBAB10 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2EC451C42368C76F00DBAB10 /* CollectionView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2EC451C42368C76F00DBAB10 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2EC451C52368C77500DBAB10 /* StoreCollectionViewCell */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		2EC451C52368C77500DBAB10 /* StoreCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2EC451C62368C79700DBAB10 /* StoreCollectionViewCell.swift */,
+				2EC451C72368C79700DBAB10 /* StoreCollectionViewCell.xib */,
+			);
+			path = StoreCollectionViewCell;
 			sourceTree = "<group>";
 		};
 		2EC70827235B65C00040A69B /* UserView */ = {
@@ -391,6 +437,7 @@
 				2ECD36D3235669E900272D91 /* StoresViewController.xib in Resources */,
 				2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */,
 				2E4E6AA82358F9890040D9C0 /* MenuViewController.xib in Resources */,
+				2EC451C92368C79700DBAB10 /* StoreCollectionViewCell.xib in Resources */,
 				2EC451C02368C46000DBAB10 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,6 +575,7 @@
 				2EC451BF2368C46000DBAB10 /* HomeViewController.swift in Sources */,
 				2ECD36DD2358F47800272D91 /* UserModel.swift in Sources */,
 				2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */,
+				2EC451C82368C79700DBAB10 /* StoreCollectionViewCell.swift in Sources */,
 				2EC7082A235B66160040A69B /* StoresView.swift in Sources */,
 				2ECD36DB2358F46E00272D91 /* MenuModel.swift in Sources */,
 				2E4E6AAA2358F9A40040D9C0 /* MenuView.swift in Sources */,
