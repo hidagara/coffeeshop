@@ -18,6 +18,8 @@
 		2E4E6AA72358F9890040D9C0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA52358F9890040D9C0 /* MenuViewController.swift */; };
 		2E4E6AA82358F9890040D9C0 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */; };
 		2E4E6AAA2358F9A40040D9C0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA92358F9A40040D9C0 /* MenuView.swift */; };
+		2EC451BF2368C46000DBAB10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC451BD2368C46000DBAB10 /* HomeViewController.swift */; };
+		2EC451C02368C46000DBAB10 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC451BE2368C46000DBAB10 /* HomeViewController.xib */; };
 		2EC7082A235B66160040A69B /* StoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC70829235B66160040A69B /* StoresView.swift */; };
 		2EC7082D235B66830040A69B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7082B235B66830040A69B /* UserViewController.swift */; };
 		2EC7082E235B66830040A69B /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EC7082C235B66830040A69B /* UserViewController.xib */; };
@@ -68,6 +70,8 @@
 		2E4E6AA52358F9890040D9C0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		2E4E6AA92358F9A40040D9C0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		2EC451BD2368C46000DBAB10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2EC451BE2368C46000DBAB10 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		2EC70829235B66160040A69B /* StoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresView.swift; sourceTree = "<group>"; };
 		2EC7082B235B66830040A69B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		2EC7082C235B66830040A69B /* UserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
@@ -215,6 +219,8 @@
 				2EC70827235B65C00040A69B /* UserView */,
 				2E4E6AA42358F96C0040D9C0 /* MenuView */,
 				2ECD36CF235669D300272D91 /* StoreView */,
+				2EC451BD2368C46000DBAB10 /* HomeViewController.swift */,
+				2EC451BE2368C46000DBAB10 /* HomeViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 				2ECD36D3235669E900272D91 /* StoresViewController.xib in Resources */,
 				2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */,
 				2E4E6AA82358F9890040D9C0 /* MenuViewController.xib in Resources */,
+				2EC451C02368C46000DBAB10 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +525,7 @@
 				2EC7082D235B66830040A69B /* UserViewController.swift in Sources */,
 				2ECD36DF2358F48D00272D91 /* OrderModel.swift in Sources */,
 				2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */,
+				2EC451BF2368C46000DBAB10 /* HomeViewController.swift in Sources */,
 				2ECD36DD2358F47800272D91 /* UserModel.swift in Sources */,
 				2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */,
 				2EC7082A235B66160040A69B /* StoresView.swift in Sources */,
