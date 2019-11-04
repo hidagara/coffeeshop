@@ -1,0 +1,22 @@
+[
+    {
+        "name": "The Store at Krasnaya Street",
+        "city": "Krasnodar",
+        "id": 1,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "turtlerock"
+    },
+    {
+        "name": "The Store at 40 let pobedi",
+        "city": "Krasnodar",
+        "id": 2,
+        "coordinates": {
+            "longitude": -116.166868,
+            "latitude": 34.011286
+        },
+        "imageName": "turtlerock"
+    }
+]

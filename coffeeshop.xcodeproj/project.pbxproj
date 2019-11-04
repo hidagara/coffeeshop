@@ -38,6 +38,7 @@
 		2ECD36DF2358F48D00272D91 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECD36DE2358F48D00272D91 /* OrderModel.swift */; };
 		2EF8B9FB23709C9A007C2AA8 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF8B9FA23709C9A007C2AA8 /* CircleImage.swift */; };
 		2EF8B9FF23709E5E007C2AA8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF8B9FE23709E5E007C2AA8 /* MapView.swift */; };
+		2EF8BA022370A412007C2AA8 /* storesInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EF8BA012370A412007C2AA8 /* storesInfo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,7 @@
 		2ECD36DE2358F48D00272D91 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		2EF8B9FA23709C9A007C2AA8 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2EF8B9FE23709E5E007C2AA8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2EF8BA012370A412007C2AA8 /* storesInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = storesInfo.json; sourceTree = "<group>"; };
 		3E0B19C17AFBC913E7BD05E3 /* Pods-coffeeshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshop.release.xcconfig"; path = "Target Support Files/Pods-coffeeshop/Pods-coffeeshop.release.xcconfig"; sourceTree = "<group>"; };
 		9B4CAD20DB2A07973498106C /* Pods-coffeeshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshop.debug.xcconfig"; path = "Target Support Files/Pods-coffeeshop/Pods-coffeeshop.debug.xcconfig"; sourceTree = "<group>"; };
 		DD02FBA4D8766B3EC35228CB /* Pods-coffeeshopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshopUITests.release.xcconfig"; path = "Target Support Files/Pods-coffeeshopUITests/Pods-coffeeshopUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 		2E1C52A7232C2F2900A05820 /* coffeeshop */ = {
 			isa = PBXGroup;
 			children = (
+				2EF8BA002370A3D8007C2AA8 /* Data */,
 				2EC451C12368C74C00DBAB10 /* UI */,
 				2ECD36CC235664E900272D91 /* ViewModel */,
 				2ECD36CB235664E300272D91 /* Model */,
@@ -340,6 +343,14 @@
 			path = StoreView;
 			sourceTree = "<group>";
 		};
+		2EF8BA002370A3D8007C2AA8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2EF8BA012370A412007C2AA8 /* storesInfo.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		E5A0C2D9977E6C32A084FA23 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -470,6 +481,7 @@
 				2EC451C92368C79700DBAB10 /* StoreCollectionViewCell.xib in Resources */,
 				2EC451D3236932CD00DBAB10 /* MenuTableViewCell.xib in Resources */,
 				2EC451C02368C46000DBAB10 /* HomeViewController.xib in Resources */,
+				2EF8BA022370A412007C2AA8 /* storesInfo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
