@@ -21,11 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let userViewController = HomeViewController()
         let menuViewController = MenuViewController()
         let storesViewController = StoresViewController()
+        let mainViewController = MainViewController()
         let tbc =  UITabBarController()
         userViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .contacts, tag: 0)
         menuViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 1)
         storesViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .featured, tag: 2)
-        tbc.viewControllers = [ storesViewController, menuViewController, userViewController]
+        mainViewController.tabBarItem = UITabBarItem(tabBarSystemItem: .mostViewed, tag: 4)
+        tbc.viewControllers = [ mainViewController, storesViewController, menuViewController, userViewController]
         window!.rootViewController = tbc
         window!.makeKeyAndVisible()
         return true

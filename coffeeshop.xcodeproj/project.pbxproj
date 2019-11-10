@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E18506E237892DC0051D33F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E18506D237892DC0051D33F /* MainView.swift */; };
+		2E185075237893550051D33F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E185073237893550051D33F /* MainViewController.swift */; };
+		2E185076237893550051D33F /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E185074237893550051D33F /* MainView.xib */; };
 		2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52A8232C2F2900A05820 /* AppDelegate.swift */; };
 		2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52AA232C2F2900A05820 /* RootViewController.swift */; };
 		2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52AF232C2F2900A05820 /* coffeeshop.xcdatamodeld */; };
@@ -15,7 +18,7 @@
 		2E1C52C1232C2F2C00A05820 /* coffeeshopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52C0232C2F2C00A05820 /* coffeeshopTests.swift */; };
 		2E1C52CC232C2F2C00A05820 /* coffeeshopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C52CB232C2F2C00A05820 /* coffeeshopUITests.swift */; };
 		2E4E6AA72358F9890040D9C0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA52358F9890040D9C0 /* MenuViewController.swift */; };
-		2E4E6AA82358F9890040D9C0 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */; };
+		2E4E6AA82358F9890040D9C0 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA62358F9890040D9C0 /* MenuView.xib */; };
 		2E4E6AAA2358F9A40040D9C0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4E6AA92358F9A40040D9C0 /* MenuView.swift */; };
 		2EA33F95237080C600D37531 /* FirstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA33F94237080C600D37531 /* FirstPageView.swift */; };
 		2EC451BF2368C46000DBAB10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC451BD2368C46000DBAB10 /* HomeViewController.swift */; };
@@ -60,6 +63,9 @@
 
 /* Begin PBXFileReference section */
 		1DB73EF0581A437AA755B1ED /* Pods-coffeeshopTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshopTests.release.xcconfig"; path = "Target Support Files/Pods-coffeeshopTests/Pods-coffeeshopTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E18506D237892DC0051D33F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainView.swift; path = coffeeshop/MainView.swift; sourceTree = SOURCE_ROOT; };
+		2E185073237893550051D33F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2E185074237893550051D33F /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		2E1C52A5232C2F2900A05820 /* coffeeshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1C52A8232C2F2900A05820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E1C52AA232C2F2900A05820 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +80,7 @@
 		2E1C52CB232C2F2C00A05820 /* coffeeshopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeshopUITests.swift; sourceTree = "<group>"; };
 		2E1C52CD232C2F2C00A05820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E4E6AA52358F9890040D9C0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		2E4E6AA62358F9890040D9C0 /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 		2E4E6AA92358F9A40040D9C0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2EA33F94237080C600D37531 /* FirstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageView.swift; sourceTree = "<group>"; };
 		2EC451BD2368C46000DBAB10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +136,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E18506C237892BB0051D33F /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				2E18506D237892DC0051D33F /* MainView.swift */,
+				2E185073237893550051D33F /* MainViewController.swift */,
+				2E185074237893550051D33F /* MainView.xib */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
 		2E1C529C232C2F2800A05820 = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +216,7 @@
 			children = (
 				2E4E6AA92358F9A40040D9C0 /* MenuView.swift */,
 				2E4E6AA52358F9890040D9C0 /* MenuViewController.swift */,
-				2E4E6AA62358F9890040D9C0 /* MenuViewController.xib */,
+				2E4E6AA62358F9890040D9C0 /* MenuView.xib */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -303,6 +319,7 @@
 		2ECD36CA235664DB00272D91 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2E18506C237892BB0051D33F /* MainView */,
 				2EC70828235B65D60040A69B /* OrderView */,
 				2EC70827235B65C00040A69B /* UserView */,
 				2E4E6AA42358F96C0040D9C0 /* MenuView */,
@@ -477,9 +494,10 @@
 				2EC7082E235B66830040A69B /* UserViewController.xib in Resources */,
 				2ECD36D3235669E900272D91 /* StoresViewController.xib in Resources */,
 				2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */,
-				2E4E6AA82358F9890040D9C0 /* MenuViewController.xib in Resources */,
+				2E4E6AA82358F9890040D9C0 /* MenuView.xib in Resources */,
 				2EC451C92368C79700DBAB10 /* StoreCollectionViewCell.xib in Resources */,
 				2EC451D3236932CD00DBAB10 /* MenuTableViewCell.xib in Resources */,
+				2E185076237893550051D33F /* MainView.xib in Resources */,
 				2EC451C02368C46000DBAB10 /* HomeViewController.xib in Resources */,
 				2EF8BA022370A412007C2AA8 /* storesInfo.json in Resources */,
 			);
@@ -611,12 +629,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECD36D2235669E900272D91 /* StoresViewController.swift in Sources */,
+				2E185075237893550051D33F /* MainViewController.swift in Sources */,
 				2E4E6AA72358F9890040D9C0 /* MenuViewController.swift in Sources */,
 				2EC7082D235B66830040A69B /* UserViewController.swift in Sources */,
 				2ECD36DF2358F48D00272D91 /* OrderModel.swift in Sources */,
 				2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */,
 				2EA33F95237080C600D37531 /* FirstPageView.swift in Sources */,
 				2EC451CC2369317C00DBAB10 /* Product.swift in Sources */,
+				2E18506E237892DC0051D33F /* MainView.swift in Sources */,
 				2EF8B9FF23709E5E007C2AA8 /* MapView.swift in Sources */,
 				2EC451BF2368C46000DBAB10 /* HomeViewController.swift in Sources */,
 				2ECD36DD2358F47800272D91 /* UserModel.swift in Sources */,
