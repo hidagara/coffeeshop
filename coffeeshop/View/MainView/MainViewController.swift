@@ -10,11 +10,14 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var storesCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+
 
 
     /*
