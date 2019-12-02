@@ -1,3 +1,5 @@
+// Model with User Information
+
 struct UserModel {
     var name: String
     var login: String?
