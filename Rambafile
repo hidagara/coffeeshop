@@ -1,26 +1,20 @@
 ### Headers settings
-company: Roman Guseynov Company
+company: Company
 
 ### Xcode project settings
-project_name: kofeman-ios-client
+project_name: coffeeshop-ios
 xcodeproj_path: coffeeshop.xcodeproj
 
 ### Code generation settings section
 # The main project target name
 project_target: coffeeshop
 
-
-# The file path for new modules
-project_file_path: Classes/Modules
-
-# The Xcode group path to new modules
-project_group_path: Classes//Modules
-
+project_file_path: coffeeshop/Classes/Modules
+project_group_path: coffeeshop/Classes/Modules
 
 ### Tests generation settings section
 # The tests target name
 test_target: coffeeshopTests
-
 
 # The file path for new tests
 test_file_path: coffeeshopTests/Modules
@@ -33,4 +27,7 @@ podfile_path: Podfile
 
 ### Templates
 templates:
-- {name: swift_viper, git: 'https://github.com/hidagara/viper-swift-template.git'}
+- {name: rviper_controller}
+- {name: mvvm_controller}
+- {name: swifty_viper}
+- {name: swift_viper , git: 'https://github.com/hidagara/viper-swift-template.git'}
