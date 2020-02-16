@@ -33,4 +33,4 @@ podfile_path: Podfile
 
 ### Templates
 templates:
-- {name: Swift Viper, git: 'https://github.com/hidagara/viper-swift-template.git'}
+- {name: swift_viper, git: 'https://github.com/hidagara/viper-swift-template.git'}
