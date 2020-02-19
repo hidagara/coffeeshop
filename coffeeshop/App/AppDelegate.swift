@@ -17,9 +17,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     window = UIWindow(frame: UIScreen.main.bounds)
-    window?.rootViewController = RootViewController()
+    
+    let tbc = UITabBarController()
+    let rvc1 = RootViewController()
+    let rvc2 = RootViewController()
+    let rvc3 = RootViewController()
+    let rvc4 = RootViewController()
+    let image = UIImage(systemName: "cube.box.fill")
+    let personImage = UIImage(systemName: "person.circle")
+    let cardImage = UIImage(systemName: "cart.fill")
+    let mapImage = UIImage(systemName: "map.fill")
+//    rvc.tabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 0)
+    rvc1.tabBarItem = UITabBarItem(title: "Main", image: image, selectedImage: image)
+    rvc2.tabBarItem = UITabBarItem(title: "Shops", image: mapImage, selectedImage: mapImage)
+    rvc3.tabBarItem = UITabBarItem(title: "Cart", image: cardImage, selectedImage: cardImage)
+    rvc4.tabBarItem = UITabBarItem(title: "Profile", image: personImage, selectedImage: personImage)
+    tbc.setViewControllers([rvc1, rvc2, rvc3, rvc4], animated: true)
+    window?.rootViewController = tbc
     window?.makeKeyAndVisible()
-      return true
+    return true
   }
   
   func applicationWillResignActive(_ application: UIApplication) {
