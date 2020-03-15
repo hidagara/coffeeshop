@@ -17,6 +17,9 @@
 		2EB5470423F8D50C007E6B2F /* Rambafile in Resources */ = {isa = PBXBuildFile; fileRef = 2EB5470323F8D50C007E6B2F /* Rambafile */; };
 		2EE2129C23FDCF04003BD1AC /* StoresCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2129A23FDCF04003BD1AC /* StoresCollectionViewViewController.swift */; };
 		2EE2129D23FDCF04003BD1AC /* StoresCollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE2129B23FDCF04003BD1AC /* StoresCollectionViewViewController.xib */; };
+		2EE2129F23FE84FE003BD1AC /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2129E23FE84FE003BD1AC /* StoreCollectionViewCell.swift */; };
+		2EE212A223FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE212A023FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.swift */; };
+		2EE212A323FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE212A123FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		2EB5470323F8D50C007E6B2F /* Rambafile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rambafile; sourceTree = "<group>"; };
 		2EE2129A23FDCF04003BD1AC /* StoresCollectionViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresCollectionViewViewController.swift; sourceTree = "<group>"; };
 		2EE2129B23FDCF04003BD1AC /* StoresCollectionViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoresCollectionViewViewController.xib; sourceTree = "<group>"; };
+		2EE2129E23FE84FE003BD1AC /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		2EE212A023FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreReusableViewCollectionReusableView.swift; sourceTree = "<group>"; };
+		2EE212A123FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreReusableViewCollectionReusableView.xib; sourceTree = "<group>"; };
 		3E0B19C17AFBC913E7BD05E3 /* Pods-coffeeshop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshop.release.xcconfig"; path = "Target Support Files/Pods-coffeeshop/Pods-coffeeshop.release.xcconfig"; sourceTree = "<group>"; };
 		9B4CAD20DB2A07973498106C /* Pods-coffeeshop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshop.debug.xcconfig"; path = "Target Support Files/Pods-coffeeshop/Pods-coffeeshop.debug.xcconfig"; sourceTree = "<group>"; };
 		DD02FBA4D8766B3EC35228CB /* Pods-coffeeshopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeshopUITests.release.xcconfig"; path = "Target Support Files/Pods-coffeeshopUITests/Pods-coffeeshopUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +123,9 @@
 				2E1C52AF232C2F2900A05820 /* coffeeshop.xcdatamodeld */,
 				2EE2129A23FDCF04003BD1AC /* StoresCollectionViewViewController.swift */,
 				2EE2129B23FDCF04003BD1AC /* StoresCollectionViewViewController.xib */,
+				2EE2129E23FE84FE003BD1AC /* StoreCollectionViewCell.swift */,
+				2EE212A023FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.swift */,
+				2EE212A123FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.xib */,
 			);
 			path = coffeeshop;
 			sourceTree = "<group>";
@@ -282,6 +291,7 @@
 				2E1C52B6232C2F2C00A05820 /* LaunchScreen.storyboard in Resources */,
 				2EE2129D23FDCF04003BD1AC /* StoresCollectionViewViewController.xib in Resources */,
 				2E1C52B3232C2F2C00A05820 /* Assets.xcassets in Resources */,
+				2EE212A323FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.xib in Resources */,
 				2EB5470423F8D50C007E6B2F /* Rambafile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,7 +422,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1C52B1232C2F2900A05820 /* coffeeshop.xcdatamodeld in Sources */,
+				2EE212A223FEA7DF003BD1AC /* StoreReusableViewCollectionReusableView.swift in Sources */,
 				2EE2129C23FDCF04003BD1AC /* StoresCollectionViewViewController.swift in Sources */,
+				2EE2129F23FE84FE003BD1AC /* StoreCollectionViewCell.swift in Sources */,
 				2E1C52AB232C2F2900A05820 /* RootViewController.swift in Sources */,
 				2E1C52A9232C2F2900A05820 /* AppDelegate.swift in Sources */,
 			);

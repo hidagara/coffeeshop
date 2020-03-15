@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
     
     let tbc = UITabBarController()
-    let rvc1 = RootViewController()
+    let rvc1 = StoresCollectionViewViewController()
     let rvc2 = RootViewController()
     let rvc3 = RootViewController()
     let rvc4 = RootViewController()
